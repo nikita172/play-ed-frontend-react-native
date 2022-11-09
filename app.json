@@ -24,10 +24,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "androidStatusBar": {
+        "translucent": true
+      },
+      "package": "com.nikita_rawat_123.played"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce47ef8b-5323-49c6-bf18-ee3266dff245"
+      }
     }
   }
 }
